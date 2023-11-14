@@ -1,0 +1,83 @@
+/* Attractive Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+/* White and Purple Color Scheme */
+body {
+    margin: 40px;
+    background-color: #f8f9fa;
+    color: #5a3f6f;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Centered Form */
+.login-form,
+.create-form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Rounded Corners and Buttons */
+.login-form,
+.create-form,
+.btn {
+    border-radius: 10px;
+}
+
+/* Shadows */
+.login-form,
+.create-form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Button Animations */
+.btn {
+    background-color: #7e57c2;
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #493270;
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
+/* Bigger Text and Input Boxes */
+h2 {
+    font-size: 36px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #7e57c2;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
